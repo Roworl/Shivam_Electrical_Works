@@ -1,0 +1,2341 @@
+<?php include "includes/header.php"?>
+
+<body>
+  <?php include "includes/navbar.php" ?>
+
+  <main class="main">
+    <!-- hero slider -->
+    <div class="hero-section">
+      <div class="hero-shape">
+        <div class="hero-shape-1"></div>
+        <div class="hero-shape-2"></div>
+        <div class="hero-shape-3"></div>
+        <div class="hero-shape-4"></div>
+        <div class="hero-shape-5"></div>
+        <div class="hero-shape-6"></div>
+      </div>
+      <div class="hero-slider owl-carousel owl-theme">
+        <div class="hero-single" style="background: url(assets/img/slider/slider-1.jpg)">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-12 col-lg-7">
+                <div class="hero-content">
+                  <h6 class="hero-sub-title" data-animation="fadeInDown" data-delay=".25s">
+                    <i class="far fa-lightbulb-on"></i>Welcome To Shivam
+                    Electrical!
+                  </h6>
+                  <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
+                    Fast & Reliable <span>Motor & Electrical</span> Services
+                  </h1>
+                  <p data-animation="fadeInLeft" data-delay=".75s">
+                    At Shivam Electrical, we specialize in comprehensive
+                    repair and rewinding solutions for a wide range of
+                    industrial and commercial electrical equipment. Our expert
+                    technicians restore your motors to optimal working
+                    condition.
+                  </p>
+                  <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
+                    <a href="about.php" class="theme-btn">About More<i class="fas fa-arrow-right-long"></i></a>
+                    <a href="contact.php" class="theme-btn theme-btn2">Learn More<i
+                        class="fas fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-single" style="background: url(assets/img/slider/slider-2.jpg)">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-12 col-lg-7">
+                <div class="hero-content">
+                  <h6 class="hero-sub-title" data-animation="fadeInDown" data-delay=".25s">
+                    <i class="far fa-lightbulb-on"></i>Welcome To Shivam
+                    Electrical!
+                  </h6>
+                  <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
+                    Fast & Reliable <span>Motor & Electrical</span> Services
+                  </h1>
+                  <p data-animation="fadeInLeft" data-delay=".75s">
+                    At Shivam Electrical, we specialize in comprehensive
+                    repair and rewinding solutions for a wide range of
+                    industrial and commercial electrical equipment. Our expert
+                    technicians restore your motors to optimal working
+                    condition.
+                  </p>
+                  <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
+                    <a href="about.php" class="theme-btn">About More<i class="fas fa-arrow-right-long"></i></a>
+                    <a href="contact.php" class="theme-btn theme-btn2">Learn More<i
+                        class="fas fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-single" style="background: url(assets/img/slider/slider-3.jpg)">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-12 col-lg-7">
+                <div class="hero-content">
+                  <h6 class="hero-sub-title" data-animation="fadeInDown" data-delay=".25s">
+                    <i class="far fa-lightbulb-on"></i>Welcome To Shivam
+                    Electrical!
+                  </h6>
+                  <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
+                    Fast & Reliable <span>Motor & Electrical</span> Services
+                  </h1>
+                  <p data-animation="fadeInLeft" data-delay=".75s">
+                    At Shivam Electrical, we specialize in comprehensive
+                    repair and rewinding solutions for a wide range of
+                    industrial and commercial electrical equipment. Our expert
+                    technicians restore your motors to optimal working
+                    condition.
+                  </p>
+                  <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
+                    <a href="about.php" class="theme-btn">About More<i class="fas fa-arrow-right-long"></i></a>
+                    <a href="contact.php" class="theme-btn theme-btn2">Learn More<i
+                        class="fas fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- hero slider end -->
+
+    <!-- appointment area -->
+    <div class="appointment">
+      <div class="col-lg-8">
+        <div class="appointment-form">
+          <form id="appointmentForm">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="name" placeholder="Enter Name" required />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" placeholder="Enter Email" required />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="phone" placeholder="Enter Phone" required />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <select class="form-select" name="service" required>
+                    <option value="">Choose Service</option>
+                    <option value="Motor Repair & Rewinding">Motor Repair & Rewinding</option>
+                    <option value="Brake Coil Repair">Brake Coil Repair</option>
+                    <option value="Transformer Repair">Transformer Repair</option>
+                    <option value="AC/DC Motor Repair">AC/DC Motor Repair</option>
+                    <option value="Servo Motor Repair">Servo Motor Repair</option>
+                    <option value="Compressor Motor Repair">Compressor Motor Repair</option>
+                    <option value="Atlas Compressor Motor Repair">Atlas Compressor Motor Repair</option>
+                    <option value="Electromagnetic Brake Coil Repair">Electromagnetic Brake Coil Repair</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <input type="date" class="form-control" name="date" required />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <button type="submit" class="theme-btn">Get Service</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- appointment area end-->
+
+    <script>
+    document.getElementById("appointmentForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      // Collect form data
+      const name = this.name.value.trim();
+      const email = this.email.value.trim();
+      const phone = this.phone.value.trim();
+      const service = this.service.value.trim();
+      const date = this.date.value;
+
+      // Create message
+      const text = `Hello, I would like to book a service appointment:%0A
+*Name:* ${name}%0A
+*Email:* ${email}%0A
+*Phone:* ${phone}%0A
+*Service:* ${service}%0A
+*Preferred Date:* ${date}`;
+
+      // Encode and redirect
+      const whatsappMessage = encodeURIComponent(text);
+      const phoneNumber = "917709434833"; // include country code
+      const url = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
+
+      // Open WhatsApp
+      window.open(url, "_blank");
+    });
+    </script>
+
+
+    <!-- about area -->
+    <div class="about-area py-120">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="about-left wow fadeInLeft" data-wow-delay=".25s">
+              <div class="about-img">
+                <img src="assets/img/about/01.webp" alt="" />
+              </div>
+              <div class="about-experience">
+                <div class="about-experience-icon">
+                  <i class="icon-plug"></i>
+                </div>
+                <b class="text-start">30 Years Of <br />
+                  Quality Service</b>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-right wow fadeInRight" data-wow-delay=".25s">
+              <div class="site-heading mb-3">
+                <span class="site-title-tagline"><i class="far fa-lightbulb-on"></i> About Us</span>
+                <h2 class="site-title">
+                  We Are Commited To <span>Provide Quality</span> Service
+                </h2>
+              </div>
+              <p class="about-text">
+                At Shivam Electrical & Motor Works, we specialize in providing
+                top-notch electrical solutions and expert motor services. From
+                household wiring to industrial motor repairs, our skilled team
+                ensures safe, efficient, and long-lasting results. With years
+                of expertise, we aim to keep your power running and your
+                motors performing at their best.
+              </p>
+              <div class="about-content">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="about-item">
+                      <div class="about-item-icon">
+                        <i class="icon-power-plant"></i>
+                      </div>
+                      <div class="about-item-content">
+                        <h5>Electrical Repairs & Maintenance</h5>
+                        <p>
+                          Fast and reliable solutions for all electrical
+                          faults, ensuring safety and efficiency.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="about-item">
+                      <div class="about-item-icon">
+                        <i class="icon-diagnostic"></i>
+                      </div>
+                      <div class="about-item-content">
+                        <h5>Motor Rewinding & Repairs</h5>
+                        <p>
+                          Expert motor rewinding, servicing, and maintenance
+                          to extend motor life and performance.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="about-list-wrapper">
+                <ul class="about-list list-unstyled">
+                  <li>Trusted expertise in electrical and motor services.</li>
+                  <li>Emergency support when you need it most.</li>
+                  <li>Quality workmanship with safety first.</li>
+                </ul>
+              </div>
+              <a href="about.php" class="theme-btn mt-4">Discover More<i class="fas fa-arrow-right-long"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about area end -->
+
+    <!-- feature area -->
+    <div class="feature-area ft-bg py-120">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mx-auto">
+            <div class="site-heading text-center">
+              <span class="site-title-tagline"><i class="far fa-lightbulb-on"></i> Our Feature</span>
+              <h2 class="site-title text-white">
+                Let's Check Our <span>Feature</span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="feature-wrapper">
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="feature-item wow fadeInUp" data-wow-delay=".25s">
+                <span class="count">01</span>
+                <div class="feature-icon">
+                  <i class="icon-technician"></i>
+                </div>
+                <h4 class="feature-title">Professional Staff</h4>
+                <p>
+                  Our team consists of highly skilled and experienced
+                  technicians who deliver reliable electrical and motor
+                  solutions with precision.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="feature-item wow fadeInDown" data-wow-delay=".25s">
+                <span class="count">02</span>
+                <div class="feature-icon">
+                  <i class="icon-satisfaction"></i>
+                </div>
+                <h4 class="feature-title">Satisfaction Guarantee</h4>
+                <p>
+                  We stand behind our work and ensure 100% customer
+                  satisfaction with every repair, rewinding, and installation
+                  service.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="feature-item wow fadeInUp" data-wow-delay=".25s">
+                <span class="count">03</span>
+                <div class="feature-icon">
+                  <i class="icon-shield"></i>
+                </div>
+                <h4 class="feature-title">Accourate Testing</h4>
+                <p>
+                  With advanced tools and careful diagnostics, we provide
+                  accurate testing to identify and fix issues quickly and
+                  effectively.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="feature-item wow fadeInDown" data-wow-delay=".25s">
+                <span class="count">04</span>
+                <div class="feature-icon">
+                  <i class="icon-easy-installation"></i>
+                </div>
+                <h4 class="feature-title">Flexible & Low Cost</h4>
+                <p>
+                  We offer cost-effective solutions tailored to your needs,
+                  without compromising on quality or safetyof your equipment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- feature area end -->
+
+    <!-- service-area -->
+    <div class="service-area bg py-120">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mx-auto">
+            <div class="site-heading text-center">
+              <span class="site-title-tagline"><i class="far fa-lightbulb-on"></i> Our Services</span>
+              <h2 class="site-title">We Offer Best <span>Services</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="service-item wow fadeInUp" data-wow-delay=".25s">
+              <div class="service-img">
+                <img src="assets/img/service/01.jpg" alt="" />
+                <div class="service-icon">
+                  <i class="icon-electric"></i>
+                </div>
+              </div>
+              <div class="service-content">
+                <h3 class="service-title">
+                  <a href="service-single1.php">Motor Repair & Rewinding</a>
+                </h3>
+                <p class="service-text">
+                  We repair and rewind all types of electric motors, including
+                  single-phase and three-phase. Services include burnt winding
+                  replacement, insulation testing, bearing replacement, and
+                  balancing for reliable, cost-effective performance.
+                </p>
+                <div class="service-arrow">
+                  <a href="service-single1.php">Read More<i class="fas fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-item wow fadeInDown" data-wow-delay=".25s">
+              <div class="service-img">
+                <img src="assets/img/service/02.jpg" alt="" />
+                <div class="service-icon">
+                  <i class="icon-air-conditioning"></i>
+                </div>
+              </div>
+              <div class="service-content">
+                <h3 class="service-title">
+                  <a href="service-single2.php">Brake Coil Repair</a>
+                </h3>
+                <p class="service-text">
+                  We rewind and repair electromagnetic brake coils for cranes,
+                  hoists, and elevators, ensuring proper resistance,
+                  insulation, durability, and smooth performance.With a focus
+                  on precision and reliability, we extend coil life, and
+                  improve safety.
+                </p>
+
+                <div class="service-arrow">
+                  <a href="service-single2.php">Read More<i class="fas fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-item wow fadeInUp" data-wow-delay=".25s">
+              <div class="service-img">
+                <img src="assets/img/service/03.jpg" alt="" />
+                <div class="service-icon">
+                  <i class="icon-cctv-camera"></i>
+                </div>
+              </div>
+              <div class="service-content">
+                <h3 class="service-title">
+                  <a href="service-single3.php">Transformer Repair</a>
+                </h3>
+                <p class="service-text">
+                  We service and rewind transformers up to 11kV, including oil
+                  filtration, core and coil rewinding, bushing replacement,
+                  and insulation testing.
+                </p>
+                <div class="service-arrow">
+                  <a href="service-single3.php">Read More<i class="fas fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-item wow fadeInDown" data-wow-delay=".25s">
+              <div class="service-img">
+                <img src="assets/img/service/04.jpeg" alt="" />
+                <div class="service-icon">
+                  <i class="icon-light-bulb-1"></i>
+                </div>
+              </div>
+              <div class="service-content">
+                <h3 class="service-title">
+                  <a href="service-single4.php">AC/DC Motor Repair</a>
+                </h3>
+                <p class="service-text">
+                  We repair AC and DC motors used in drives, fans, and
+                  conveyors with armature rewinding, rotor balancing,
+                  commutator machining, and brush maintenance.
+                </p>
+                <div class="service-arrow">
+                  <a href="service-single4.php">Read More<i class="fas fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-item wow fadeInUp" data-wow-delay=".25s">
+              <div class="service-img">
+                <img src="assets/img/service/05.jpg" alt="" />
+                <div class="service-icon">
+                  <i class="icon-cabinet"></i>
+                </div>
+              </div>
+              <div class="service-content">
+                <h3 class="service-title">
+                  <a href="service-single5.php">Servo Motor Repair</a>
+                </h3>
+                <p class="service-text">
+                  We restore servo motors used in CNC and automation systems
+                  with encoder replacement, feedback alignment, shaft
+                  balancing, and load testing.
+                </p>
+                <div class="service-arrow">
+                  <a href="service-single5.php">Read More<i class="fas fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-item wow fadeInDown" data-wow-delay=".25s">
+              <div class="service-img">
+                <img src="assets/img/service/06.jpg" alt="" />
+                <div class="service-icon">
+                  <i class="icon-shield-1"></i>
+                </div>
+              </div>
+              <div class="service-content">
+                <h3 class="service-title">
+                  <a href="service-single6.php">Compressor Motor Repair</a>
+                </h3>
+                <p class="service-text">
+                  We repair motors in air compressors, refrigeration, and HVAC
+                  systems, fixing overheating, bearings, windings, and
+                  electrical load issues.
+                </p>
+                <div class="service-arrow">
+                  <a href="service-single6.php">Read More<i class="fas fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-item wow fadeInUp" data-wow-delay=".25s">
+              <div class="service-img">
+                <img src="assets/img/service/07.jpeg" alt="" />
+                <div class="service-icon">
+                  <i class="icon-heater"></i>
+                </div>
+              </div>
+              <div class="service-content">
+                <h3 class="service-title">
+                  <a href="service-single7.php">Atlas Compressor Motor Repair</a>
+                </h3>
+                <p class="service-text">
+                  We maintain Atlas Copco compressor motors with rewinding,
+                  rotor and stator repairs, vibration analysis, and genuine
+                  parts replacement.
+                </p>
+                <div class="service-arrow">
+                  <a href="service-single7.php">Read More<i class="fas fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-item wow fadeInDown" data-wow-delay=".25s">
+              <div class="service-img">
+                <img src="assets/img/service/08.jpg" alt="" />
+                <div class="service-icon">
+                  <i class="icon-fan"></i>
+                </div>
+              </div>
+              <div class="service-content">
+                <h3 class="service-title">
+                  <a href="service-single8.php">Electromagnetic Brake Coil Repair</a>
+                </h3>
+                <p class="service-text">
+                  We provide rewinding, testing, and servicing of brake coils,
+                  including custom coil manufacturing and efficiency upgrades.
+                </p>
+                <div class="service-arrow">
+                  <a href="service-single8.php">Read More<i class="fas fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- service-area -->
+
+    <!-- counter area -->
+    <div class="counter-area pt-50 pb-50">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="counter-box">
+              <div class="icon">
+                <i class="icon-project-management"></i>
+              </div>
+              <div>
+                <span class="counter" data-count="+" data-to="500" data-speed="3000">500</span>
+                <h6 class="title">+ Projects Done</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="counter-box">
+              <div class="icon">
+                <i class="icon-review"></i>
+              </div>
+              <div>
+                <span class="counter" data-count="+" data-to="900" data-speed="3000">900</span>
+                <h6 class="title">+ Happy Clients</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="counter-box">
+              <div class="icon">
+                <i class="icon-worker-1"></i>
+              </div>
+              <div>
+                <span class="counter" data-count="+" data-to="1500" data-speed="3000">1500</span>
+                <h6 class="title">+ Experienced Staff</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="counter-box">
+              <div class="icon">
+                <i class="icon-guarantee"></i>
+              </div>
+              <div>
+                <span class="counter" data-count="+" data-to="30" data-speed="3000">30</span>
+                <h6 class="title">+ Win Awards</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- counter area end -->
+
+    <!-- portfolio-area -->
+    <div class="portfolio-area py-120">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 d-lg-flex align-items-end justify-content-between mb-40">
+            <div class="site-heading mb-0">
+              <span class="site-title-tagline"><i class="far fa-lightbulb-on"></i> Our Work</span>
+              <h2 class="site-title">Explore Our <span>Portfolio</span></h2>
+            </div>
+            <div class="filter-control">
+              <ul class="filter-btn">
+                <li class="active" data-filter="*">All</li>
+                <li data-filter=".cat1">Residential</li>
+                <li data-filter=".cat2">Commercial</li>
+                <li data-filter=".cat3">Repair</li>
+                <li data-filter=".cat4">Office</li>
+                <li data-filter=".cat5">Industrial</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row filter-box popup-gallery">
+          <div class="col-md-4 filter-item cat1 cat2">
+            <div class="portfolio-item">
+              <div class="portfolio-img">
+                <img src="assets/img/portfolio/01.jpg" alt="" />
+              </div>
+              <div class="portfolio-content">
+                <a class="popup-img portfolio-link" href="assets/img/portfolio/01.jpg"><i class="fal fa-plus"></i></a>
+                <div class="portfolio-info">
+                  <div class="portfolio-title-info">
+                    <h5 class="portfolio-subtitle"><span>//</span> Repair</h5>
+                    <a href="portfolio-single.php">
+                      <h4 class="portfolio-title">Electrical Repair</h4>
+                    </a>
+                  </div>
+                  <a href="portfolio-single.php" class="portfolio-btn"><i class="far fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 filter-item cat2 cat3">
+            <div class="portfolio-item">
+              <div class="portfolio-img">
+                <img src="assets/img/portfolio/02.jpg" alt="" />
+              </div>
+              <div class="portfolio-content">
+                <a class="popup-img portfolio-link" href="assets/img/portfolio/02.jpg"><i class="fal fa-plus"></i></a>
+                <div class="portfolio-info">
+                  <div class="portfolio-title-info">
+                    <h5 class="portfolio-subtitle"><span>//</span> Repair</h5>
+                    <a href="portfolio-single.php">
+                      <h4 class="portfolio-title">Electrical Repair</h4>
+                    </a>
+                  </div>
+                  <a href="portfolio-single.php" class="portfolio-btn"><i class="far fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 filter-item cat3 cat4 cat5">
+            <div class="portfolio-item">
+              <div class="portfolio-img">
+                <img src="assets/img/portfolio/03.jpg" alt="" />
+              </div>
+              <div class="portfolio-content">
+                <a class="popup-img portfolio-link" href="assets/img/portfolio/03.jpg"><i class="fal fa-plus"></i></a>
+                <div class="portfolio-info">
+                  <div class="portfolio-title-info">
+                    <h5 class="portfolio-subtitle"><span>//</span> Repair</h5>
+                    <a href="portfolio-single.php">
+                      <h4 class="portfolio-title">Electrical Repair</h4>
+                    </a>
+                  </div>
+                  <a href="portfolio-single.php" class="portfolio-btn"><i class="far fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 filter-item cat2 cat4">
+            <div class="portfolio-item">
+              <div class="portfolio-img">
+                <img src="assets/img/portfolio/04.jpg" alt="" />
+              </div>
+              <div class="portfolio-content">
+                <a class="popup-img portfolio-link" href="assets/img/portfolio/04.jpg"><i class="fal fa-plus"></i></a>
+                <div class="portfolio-info">
+                  <div class="portfolio-title-info">
+                    <h5 class="portfolio-subtitle"><span>//</span> Repair</h5>
+                    <a href="portfolio-single.php">
+                      <h4 class="portfolio-title">Electrical Repair</h4>
+                    </a>
+                  </div>
+                  <a href="portfolio-single.php" class="portfolio-btn"><i class="far fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 filter-item cat1 cat4 cat5">
+            <div class="portfolio-item">
+              <div class="portfolio-img">
+                <img src="assets/img/portfolio/05.jpg" alt="" />
+              </div>
+              <div class="portfolio-content">
+                <a class="popup-img portfolio-link" href="assets/img/portfolio/05.jpg"><i class="fal fa-plus"></i></a>
+                <div class="portfolio-info">
+                  <div class="portfolio-title-info">
+                    <h5 class="portfolio-subtitle"><span>//</span> Repair</h5>
+                    <a href="portfolio-single.php">
+                      <h4 class="portfolio-title">Electrical Repair</h4>
+                    </a>
+                  </div>
+                  <a href="portfolio-single.php" class="portfolio-btn"><i class="far fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 filter-item cat4 cat3">
+            <div class="portfolio-item">
+              <div class="portfolio-img">
+                <img src="assets/img/portfolio/06.jpg" alt="" />
+              </div>
+              <div class="portfolio-content">
+                <a class="popup-img portfolio-link" href="assets/img/portfolio/06.jpg"><i class="fal fa-plus"></i></a>
+                <div class="portfolio-info">
+                  <div class="portfolio-title-info">
+                    <h5 class="portfolio-subtitle"><span>//</span> Repair</h5>
+                    <a href="portfolio-single.php">
+                      <h4 class="portfolio-title">Electrical Repair</h4>
+                    </a>
+                  </div>
+                  <a href="portfolio-single.php" class="portfolio-btn"><i class="far fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio-area end -->
+
+    <!-- call-area -->
+    <div class="call-area">
+      <div class="container">
+        <div class="col-md-5 ms-lg-auto">
+          <div class="call-content">
+            <span><i class="far fa-lightbulb-on"></i> Emergency Call</span>
+            <h1>Need Immediate Electrical or Motor Assistance?</h1>
+            <p>
+              Power failures, motor breakdowns, or unexpected electrical
+              issues can disrupt your work and safety. Our expert technicians
+              are available for quick emergency services, ensuring fast and
+              reliable solutions when you need them the most.
+            </p>
+            <div class="emergency-call">
+              <div class="emergency-call-icon">
+                <i class="icon-telephone1"></i>
+              </div>
+              <div class="emergency-call-info">
+                <h5>For Emergency</h5>
+                <h3><a href="tel:01346466666">+91 9673235339</a></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- call-area end -->
+
+    <!-- Companies-area -->
+    <section class="unique-client-section" aria-labelledby="unique-industries-title">
+      <div class="unique-client-container">
+        <div class="col-lg-12 text-center">
+          <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+            <div class="site-heading mb-3">
+              <span class="site-title-tagline">
+                <i class="far fa-lightbulb-on"></i> Trusted Partners
+              </span>
+              <h2 class="site-title">
+                Clients & Companies
+                <span>We Proudly Serve</span>
+              </h2>
+              <p class="unique-client-subtitle">
+                Trusted by leading industries across India for reliable motor &
+                electrical repair solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="unique-swiper-container">
+          <div class="swiper unique-client-swiper" id="uniqueIndustriesSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide unique-client-slide">
+                <article class="unique-client-card" tabindex="0">
+                  <figure class="unique-client-figure">
+                    <img src="https://www.propostefair.it/wp-content/uploads/2021/06/logo-DDECORHOMEFABRICS.jpg"
+                      alt="D'Decor home fabrics logo" class="unique-client-img" />
+                    <div class="unique-client-overlay"></div>
+                  </figure>
+                  <div class="unique-client-body">
+                    <h3>D Decor</h3>
+                    <p>
+                      Leading home decor manufacturer - we maintain their
+                      industrial motors and electrical systems.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide unique-client-slide">
+                <article class="unique-client-card" tabindex="0">
+                  <figure class="unique-client-figure">
+                    <img src="https://www.adhikariprojects.com/wp-content/uploads/2022/05/1st-Banner.jpg"
+                      alt="Adhikari Projects construction banner" class="unique-client-img" />
+                    <div class="unique-client-overlay"></div>
+                  </figure>
+                  <div class="unique-client-body">
+                    <h3>Adhikari</h3>
+                    <p>
+                      One-stop solution for all types of construction
+                      requirements in construction industry.
+                    </p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="swiper-slide unique-client-slide">
+                <article class="unique-client-card" tabindex="0">
+                  <figure class="unique-client-figure">
+                    <img src="https://www.cironpharma.com/images/Plant-A-B-Tarapur.jpg"
+                      alt="Ciron Drugs pharmaceutical plant" class="unique-client-img" />
+                    <div class="unique-client-overlay"></div>
+                  </figure>
+                  <div class="unique-client-body">
+                    <h3>Ciron Drugs</h3>
+                    <p>
+                      Specialized motor rewinding and preventive maintenance
+                      services.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide unique-client-slide">
+                <article class="unique-client-card" tabindex="0">
+                  <figure class="unique-client-figure">
+                    <img src="https://www.fabricsandfurnishings.com/images/article_crop_large/events-heimtextil.jpg"
+                      alt="Heimtextil textiles event" class="unique-client-img" />
+                    <div class="unique-client-overlay"></div>
+                  </figure>
+                  <div class="unique-client-body">
+                    <h3>Heimtextil</h3>
+                    <p>
+                      Global industry platform for home and contract textiles
+                      and textile design.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide unique-client-slide">
+                <article class="unique-client-card" tabindex="0">
+                  <figure class="unique-client-figure">
+                    <img src="https://manangroup.org/wp-content/uploads/2022/11/MANAN_GROUP__2_-removebg-preview.png"
+                      alt="Manan Group infrastructure logo" class="unique-client-img" />
+                    <div class="unique-client-overlay"></div>
+                  </figure>
+                  <div class="unique-client-body">
+                    <h3>Manan Group</h3>
+                    <p>
+                      Construction and infrastructure development across
+                      multiple ventures.
+                    </p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="swiper-slide unique-client-slide">
+                <article class="unique-client-card" tabindex="0">
+                  <figure class="unique-client-figure">
+                    <img
+                      src="https://s2.studylib.net/store/data/005495254_1-3a0185be50762c17de6506167a16f063-768x994.png"
+                      alt="NGL natural gas processing facility" class="unique-client-img" />
+                    <div class="unique-client-overlay"></div>
+                  </figure>
+                  <div class="unique-client-body">
+                    <h3>NGL</h3>
+                    <p>
+                      Natural gas processing company - providing specialized
+                      motor rewinding and maintenance services.
+                    </p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="swiper-slide unique-client-slide">
+                <article class="unique-client-card" tabindex="0">
+                  <figure class="unique-client-figure">
+                    <img src="https://www.salcoindia.com/images/logo-salco.png" alt="Salco steel manufacturing logo"
+                      class="unique-client-img" />
+                    <div class="unique-client-overlay"></div>
+                  </figure>
+                  <div class="unique-client-body">
+                    <h3>Salco</h3>
+                    <p>
+                      Steel manufacturing unit in Maharashtra – annual motor
+                      maintenance and repair contracts.
+                    </p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="swiper-slide unique-client-slide">
+                <article class="unique-client-card" tabindex="0">
+                  <figure class="unique-client-figure">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFosADTFT15TyYL3LohEyUXVKOT6mol7WxW6QtV4aMqdntBiS38NXW0xhk6t-mJTOijCQ&usqp=CAU"
+                      alt="Impulse Pharma medical products" class="unique-client-img" />
+                    <div class="unique-client-overlay"></div>
+                  </figure>
+                  <div class="unique-client-body">
+                    <h3>Impulse Pharma</h3>
+                    <p>
+                      Pharmaceutical manufacturing – critical motor systems
+                      maintenance and emergency repair services.
+                    </p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="swiper-slide unique-client-slide">
+                <article class="unique-client-card" tabindex="0">
+                  <figure class="unique-client-figure">
+                    <img src="https://www.dfupublications.com/images/2022/11/10/Siyaram%20H1%20revenue%20up_large.jpg"
+                      alt="Siyaram's fabrics manufacturing" class="unique-client-img" />
+                    <div class="unique-client-overlay"></div>
+                  </figure>
+                  <div class="unique-client-body">
+                    <h3>Siyaram's</h3>
+                    <p>
+                      ISO 9001:2008 certified company, committed to creating
+                      world-class fabrics and apparel.
+                    </p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="swiper-slide unique-client-slide">
+                <article class="unique-client-card" tabindex="0">
+                  <figure class="unique-client-figure">
+                    <img src="https://mechanical.co.in/wp-content/uploads/2020/10/Viraj-Profiles-Ltd-logo.png"
+                      alt="Viraj stainless steel products" class="unique-client-img" />
+                    <div class="unique-client-overlay"></div>
+                  </figure>
+                  <div class="unique-client-body">
+                    <h3>Viraj</h3>
+                    <p>
+                      One of the largest exporters of Stainless Steel Long
+                      Products in India.
+                    </p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="swiper-slide unique-client-slide">
+                <article class="unique-client-card" tabindex="0">
+                  <figure class="unique-client-figure">
+                    <img src="https://enkeyindia.com/images/enkey.jpg" alt="ENKEY engineering components"
+                      class="unique-client-img" />
+                    <div class="unique-client-overlay"></div>
+                  </figure>
+                  <div class="unique-client-body">
+                    <h3>ENKEY</h3>
+                    <p>
+                      Quality engineering components and assemblies to
+                      industrial product manufacturers.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide unique-client-slide">
+                <article class="unique-client-card" tabindex="0">
+                  <figure class="unique-client-figure">
+                    <img src="https://somersetinduscap.com/wp-content/uploads/2023/05/emil-pharmaceuticals-logo.jpg"
+                      alt="Emil Pharmaceutical medicines production" class="unique-client-img" />
+                    <div class="unique-client-overlay"></div>
+                  </figure>
+                  <div class="unique-client-body">
+                    <h3>Emil Pharmaceutical</h3>
+                    <p>
+                      Founded in 1989 with a vision to manufacture quality
+                      medicines.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide unique-client-slide">
+                <article class="unique-client-card" tabindex="0">
+                  <figure class="unique-client-figure">
+                    <img src="https://inter-fair.com/Content/img/Logos/45/4584/458403/ddefault.jpg"
+                      alt="G.M. Syntex home textiles" class="unique-client-img" />
+                    <div class="unique-client-overlay"></div>
+                  </figure>
+                  <div class="unique-client-body">
+                    <h3>G.M. Syntex</h3>
+                    <p>
+                      Top home textile fabric manufacturer in India, known for
+                      quality and innovation.
+                    </p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="swiper-slide unique-client-slide">
+                <article class="unique-client-card" tabindex="0">
+                  <figure class="unique-client-figure">
+                    <img
+                      src="https://images.jdmagicbox.com/comp/ujjain/z8/9999px734.x734.171213053012.t8z8/catalogue/bochem-healthcare-pvt-ltd-freeganj-ujjain-ujjain-medicine-manufacturers-etvmcy9fud.jpg"
+                      alt="BO-Chem Pvt Ltd manufacturing facility" class="unique-client-img" />
+                    <div class="unique-client-overlay"></div>
+                  </figure>
+                  <div class="unique-client-body">
+                    <h3>BO-Chem Pvt Ltd</h3>
+                    <p>
+                      State-of-the-art manufacturing facility with emphasis on
+                      unparalleled quality.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div class="unique-swiper-controls">
+            <button class="unique-swiper-btn unique-swiper-prev" aria-label="Previous slide">
+              ◄
+            </button>
+            <button class="unique-swiper-btn unique-swiper-next" aria-label="Next slide">
+              ►
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const swiper = new Swiper(".unique-client-swiper", {
+          slidesPerView: "auto",
+          spaceBetween: 30,
+          navigation: {
+            nextEl: ".unique-swiper-next",
+            prevEl: ".unique-swiper-prev",
+          },
+          breakpoints: {
+            320: {
+              spaceBetween: 10,
+            },
+            640: {
+              spaceBetween: 20,
+            },
+            1024: {
+              spaceBetween: 30,
+            },
+          },
+          loop: true,
+          autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+          },
+          keyboard: {
+            enabled: true,
+          },
+          a11y: {
+            enabled: true,
+            prevSlideMessage: "Previous slide",
+            nextSlideMessage: "Next slide",
+          },
+          effect: "slide",
+          speed: 600,
+          grabCursor: true,
+        });
+      });
+      </script>
+
+      <style>
+      .unique-client-section {
+        padding: 5rem 0;
+        background: linear-gradient(135deg, #f9fafb 0%, #e5e7eb 100%);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .unique-client-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(to right, transparent, #d21a26, transparent);
+      }
+
+      .unique-client-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 1rem;
+        position: relative;
+        z-index: 1;
+      }
+
+      .unique-client-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        position: relative;
+      }
+
+      .unique-client-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: linear-gradient(135deg, #d21a26, #b91c1c);
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: 50px;
+        font-size: 0.95rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 4px 12px rgba(210, 26, 38, 0.3);
+        animation: unique-badge-pulse 2s ease-in-out infinite alternate;
+      }
+
+      @keyframes unique-badge-pulse {
+        from {
+          transform: scale(1);
+        }
+
+        to {
+          transform: scale(1.05);
+        }
+      }
+
+      .unique-client-title {
+        font-size: 2.75rem;
+        font-weight: 800;
+        background: linear-gradient(135deg, #111827, #374151);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 1rem;
+        letter-spacing: -0.025em;
+      }
+
+      .unique-client-subtitle {
+        font-size: 1.25rem;
+        color: #6b7280;
+        max-width: 700px;
+        margin: 0 auto;
+        line-height: 1.6;
+        font-weight: 400;
+      }
+
+      .unique-swiper-container {
+        position: relative;
+        padding: 0 1rem;
+        margin-bottom: 2rem;
+      }
+
+      .unique-client-swiper {
+        overflow: hidden;
+        border-radius: 1rem;
+        padding: 1rem;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+      }
+
+      .unique-client-slide {
+        width: auto;
+        display: inline-flex;
+        justify-content: center;
+        opacity: 0.8;
+        transition: opacity 0.3s ease;
+      }
+
+      .unique-client-slide-active {
+        opacity: 1;
+      }
+
+      .unique-client-card {
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(20px);
+        border-radius: 1rem;
+        overflow: hidden;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        width: 320px;
+        cursor: pointer;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        position: relative;
+      }
+
+      .unique-client-card:hover {
+        transform: translateY(-10px) scale(1.02);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        border-color: #d21a26;
+      }
+
+      .unique-client-figure {
+        position: relative;
+        margin: 0;
+        overflow: hidden;
+        height: 200px;
+      }
+
+      .unique-client-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.4s ease;
+      }
+
+      .unique-client-card:hover .unique-client-img {
+        transform: scale(1.1);
+      }
+
+      .unique-client-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .unique-client-card:hover .unique-client-overlay {
+        opacity: 1;
+      }
+
+      .unique-client-body {
+        padding: 1.75rem;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+      }
+
+      .unique-client-body h3 {
+        font-size: 1.375rem;
+        font-weight: 700;
+        color: #111827;
+        margin-bottom: 0.75rem;
+        transition: color 0.3s ease;
+      }
+
+      .unique-client-card:hover .unique-client-body h3 {
+        color: #d21a26;
+      }
+
+      .unique-client-body p {
+        font-size: 0.95rem;
+        color: #6b7280;
+        line-height: 1.5;
+      }
+
+      .unique-swiper-controls {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-top: 2rem;
+      }
+
+      .unique-swiper-btn {
+        background: linear-gradient(135deg, #d21a26, #b91c1c);
+        color: white;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        border: none;
+        font-size: 1.25rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 12px rgba(210, 26, 38, 0.3);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .unique-swiper-btn::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+        transition: left 0.5s;
+      }
+
+      .unique-swiper-btn:hover::before {
+        left: 100%;
+      }
+
+      .unique-swiper-btn:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 16px rgba(210, 26, 38, 0.4);
+        background: linear-gradient(135deg, #b91c1c, #dc2626);
+      }
+
+      .unique-swiper-btn:disabled {
+        background: #d1d5db;
+        box-shadow: none;
+        cursor: not-allowed;
+        transform: none;
+      }
+
+      .swiper-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 640px) {
+        .unique-client-card {
+          width: 280px;
+        }
+
+        .unique-client-figure {
+          height: 160px;
+        }
+
+        .unique-client-body {
+          padding: 1.25rem;
+        }
+
+        .unique-client-body h3 {
+          font-size: 1.25rem;
+        }
+
+        .unique-client-body p {
+          font-size: 0.875rem;
+        }
+
+        .unique-client-title {
+          font-size: 2.25rem;
+        }
+
+        .unique-client-subtitle {
+          font-size: 1.125rem;
+        }
+
+        .unique-swiper-btn {
+          width: 2.5rem;
+          height: 2.5rem;
+          font-size: 1.125rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .unique-client-section {
+          padding: 3rem 0;
+        }
+
+        .unique-client-card {
+          width: 240px;
+        }
+
+        .unique-client-figure {
+          height: 140px;
+        }
+
+        .unique-client-body {
+          padding: 1rem;
+        }
+
+        .unique-client-body h3 {
+          font-size: 1.125rem;
+        }
+
+        .unique-client-body p {
+          font-size: 0.8rem;
+        }
+
+        .unique-client-title {
+          font-size: 1.875rem;
+        }
+
+        .unique-client-subtitle {
+          font-size: 1rem;
+        }
+
+        .unique-swiper-btn {
+          width: 2.25rem;
+          height: 2.25rem;
+          font-size: 1rem;
+        }
+
+        .unique-swiper-controls {
+          gap: 1rem;
+        }
+      }
+      </style>
+      <!-- companies-area end -->
+
+      <!-- choose-area -->
+      <div class="choose-area bg">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="choose-img wow fadeInLeft" data-wow-delay=".25s">
+                <img src="assets/img/choose/01.jpg" alt="" />
+                <a class="play-btn popup-youtube" href="https://www.youtube.com/watch?v=ckHzmP1evNU">
+                  <i class="fas fa-play"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+                <div class="site-heading mb-3">
+                  <span class="site-title-tagline"><i class="far fa-lightbulb-on"></i> Why Choose Us</span>
+                  <h2 class="site-title">
+                    We Provide High
+                    <span>Quality Electrical & Motor Services</span> For You
+                  </h2>
+                </div>
+                <p>
+                  At Shivam Electrical, we understand the importance of reliable
+                  power and motor systems for your home, office, or industry.
+                  That’s why we combine expert knowledge, advanced tools, and
+                  dedicated service to deliver solutions you can trust. Our
+                  focus is always on safety, efficiency, and customer
+                  satisfaction.
+                </p>
+                <div class="choose-wrapper">
+                  <div class="choose-item">
+                    <div class="choose-icon">
+                      <i class="icon-worker"></i>
+                    </div>
+                    <div class="choose-item-content">
+                      <h4>Trained Workers</h4>
+                      <p>
+                        Our skilled and certified technicians handle every
+                        project with professionalism, ensuring safe and precise
+                        electrical and motor solutions.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="choose-item">
+                    <div class="choose-icon">
+                      <i class="icon-office-building"></i>
+                    </div>
+                    <div class="choose-item-content">
+                      <h4>Best Quality Service</h4>
+                      <p>
+                        We use top-grade materials and proven methods to provide
+                        long-lasting, dependable services tailored to your
+                        needs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- choose-area end -->
+
+      <!-- team-area -->
+      <div class="team-area pt-120 pb-50">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mx-auto">
+              <div class="site-heading text-center">
+                <span class="site-title-tagline"><i class="far fa-lightbulb-on"></i> Our Team</span>
+                <h2 class="site-title">Our Experts <span>Team</span></h2>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-6">
+              <div class="leadership-card mb-4">
+                <div class="leadership-content">
+                  <div class="leadership-icon">
+                    <i class="fas fa-user-tie"></i>
+                  </div>
+                  <h3>Shivkumar Maurya</h3>
+                  <p class="position">Founder & Visionary Leader</p>
+                  <p class="description">With over 20 years of industry experience, Shivkumar Maurya has been the
+                    driving force behind our company's growth and innovation. His technical expertise and strategic
+                    vision have guided our team to deliver exceptional solutions for our clients.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="experience-card">
+                <div class="experience-content">
+                  <div class="experience-icon">
+                    <i class="fas fa-users"></i>
+                  </div>
+                  <h3>Our Expert Team</h3>
+                  <p>Our team comprises highly experienced technicians and engineers who bring decades of collective
+                    expertise to every project. Each member is committed to maintaining the highest standards of quality
+                    and innovation that have defined our company for 15 years.</p>
+                  <div class="stats-container mt-4">
+                    <div class="stat-item">
+                      <h4>15+</h4>
+                      <p>Years in Business</p>
+                    </div>
+                    <div class="stat-item">
+                      <h4>500+</h4>
+                      <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                      <h4>98%</h4>
+                      <p>Client Satisfaction</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- team-area end -->
+
+      <style>
+      .team-area {
+        background-color: #f8f9fa;
+      }
+
+
+
+      .leadership-card,
+      .experience-card {
+        background: white;
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        height: 100%;
+        transition: transform 0.3s ease;
+        text-align: center;
+      }
+
+      .leadership-card:hover,
+      .experience-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .leadership-card h3,
+      .experience-card h3 {
+        color: #222;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .position {
+        color: #d21a26;
+        font-weight: 600;
+        margin-bottom: 15px;
+        font-size: 18px;
+      }
+
+      .description {
+        color: #555;
+        line-height: 1.6;
+      }
+
+      .leadership-icon,
+      .experience-icon {
+        font-size: 50px;
+        color: #d21a26;
+        margin-bottom: 20px;
+      }
+
+      .stats-container {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+      }
+
+      .stat-item h4 {
+        font-size: 28px;
+        color: #d21a26;
+        margin-bottom: 5px;
+      }
+
+      .stat-item p {
+        font-size: 14px;
+        color: #666;
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .stats-container {
+          flex-direction: column;
+          gap: 20px;
+        }
+
+        .leadership-card,
+        .experience-card {
+          margin-bottom: 20px;
+        }
+      }
+      </style>
+
+      <!-- cta-area -->
+      <div class="cta-area pt-100">
+        <div class="container">
+          <div class="cta-wrapper wow fadeInUp" data-wow-delay=".25s">
+            <div class="row align-items-center">
+              <div class="col-lg-7 mx-auto">
+                <div class="cta-content">
+                  <h1>Get Reliable Services With Shivam Electrical</h1>
+                  <p>
+                    We provide expert repair, rewinding, and maintenance
+                    services for all types of electrical equipment and motors.
+                    With skilled technicians and quality assurance, we ensure
+                    long-lasting performance and customer satisfaction.
+                  </p>
+                  <div class="cta-btn">
+                    <a href="contact.php" class="theme-btn">Contact Us Now<i class="fas fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- cta-area end -->
+
+      <!-- faq area -->
+      <div id="faq" class="faq-area py-120">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="faq-right wow fadeInLeft" data-wow-delay=".25s">
+                <div class="site-heading mb-3">
+                  <span class="site-title-tagline justify-content-start"><i class="far fa-lightbulb-on"></i>
+                    Faq's</span>
+                  <h2 class="site-title my-3">
+                    General <span>frequently</span> asked questions
+                  </h2>
+                </div>
+                <p class="mb-3">
+                  At Shivam Electrical, we know our clients often have questions
+                  before booking a service. Here are some of the most common
+                  queries answered for your convenience.
+                </p>
+                <div class="faq-img">
+                  <img src="assets/img/faq/01.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="accordion wow fadeInUp" data-wow-delay=".25s" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <span><i class="far fa-question"></i></span> How Long Does
+                      A Service Take ?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      The duration of service depends on the type of work. Small
+                      electrical repairs may take a few hours, while motor
+                      rewinding or large-scale projects could take 1–3 days. Our
+                      team always provides an estimated timeline before
+                      starting.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <span><i class="far fa-question"></i></span> Can you
+                      repair imported motors and specialized equipment?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Absolutely! We specialize in repairing imported motors
+                      from brands like Siemens, ABB, Atlas Copco, Baldor, and
+                      many others. Our technicians are trained to work with
+                      various international standards and specifications. We
+                      maintain a stock of commonly used imported components and
+                      can source specialized parts when needed. We also repair
+                      CNC servo motors, stepper motors, and other precision
+                      equipment.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <span><i class="far fa-question"></i></span> Do you
+                      provide on-site motor repair services?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Yes, we provide on-site diagnostic and repair services for
+                      larger motors and equipment that cannot be easily
+                      transported. Our mobile workshop is equipped with
+                      essential tools and testing equipment. For complex repairs
+                      requiring specialized machinery, we offer pickup and
+                      delivery services within a 100km radius of our workshop.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      <span><i class="far fa-question"></i></span> What warranty
+                      do you provide on repaired motors?
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      We provide comprehensive warranties based on the type of
+                      repair. Our standard warranty is 6 months, covering both
+                      parts and labor. In addition, we offer free post-repair
+                      support and consultation throughout the warranty period.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      <span><i class="far fa-question"></i></span>How do you
+                      ensure quality and test repaired motors?
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      At Shivam Electrical, we ensure quality through a rigorous
+                      testing process that includes diagnostic checks, precision
+                      rewinding with high-grade materials, insulation resistance
+                      testing, dynamic balancing, and load testing under real
+                      conditions. Every repaired motor is delivered with a
+                      performance certificate and detailed test report for
+                      guaranteed reliability.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- faq area end -->
+
+      <!-- testimonial area -->
+      <div class="testimonial-area ts-bg py-120">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mx-auto">
+              <div class="site-heading text-center">
+                <span class="site-title-tagline"><i class="far fa-lightbulb-on"></i> Testimonials</span>
+                <h2 class="site-title text-white">
+                  What Our Client <span>Say's</span>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slider owl-carousel owl-theme">
+            <div class="testimonial-single">
+              <div class="testimonial-rate">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="testimonial-quote">
+                <p>
+                  Shivam Electrical repaired our factory motor with great
+                  precision. The team was professional, quick, and the motor has
+                  been running perfectly since.
+                </p>
+              </div>
+              <div class="testimonial-content">
+                <div class="testimonial-author-img">
+                  <img src="assets/img/testimonial/01.jpg" alt="" />
+                </div>
+                <div class="testimonial-author-info">
+                  <h4>Ritika Mali</h4>
+                  <p>Customer</p>
+                </div>
+              </div>
+              <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
+            </div>
+            <div class="testimonial-single">
+              <div class="testimonial-rate">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="testimonial-quote">
+                <p>
+                  We had a major electrical fault at our workshop, and their
+                  technicians handled it efficiently. Excellent service with
+                  safety-first approach.
+                </p>
+              </div>
+              <div class="testimonial-content">
+                <div class="testimonial-author-img">
+                  <img src="assets/img/testimonial/02.jpg" alt="" />
+                </div>
+                <div class="testimonial-author-info">
+                  <h4>Anirudh Aamble</h4>
+                  <p>Customer</p>
+                </div>
+              </div>
+              <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
+            </div>
+            <div class="testimonial-single">
+              <div class="testimonial-rate">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="testimonial-quote">
+                <p>
+                  Shivam Electrical is our go-to partner for electrical and
+                  motor repairs. Always on time, professional, and delivering
+                  excellent results every single time.
+                </p>
+              </div>
+              <div class="testimonial-content">
+                <div class="testimonial-author-img">
+                  <img src="assets/img/testimonial/03.jpg" alt="" />
+                </div>
+                <div class="testimonial-author-info">
+                  <h4>Richa jha</h4>
+                  <p>Customer</p>
+                </div>
+              </div>
+              <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
+            </div>
+            <div class="testimonial-single">
+              <div class="testimonial-rate">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="testimonial-quote">
+                <p>
+                  Very reliable and affordable service. The team explained the
+                  issues clearly and provided a long-term solution instead of
+                  just a quick fix.
+                </p>
+              </div>
+              <div class="testimonial-content">
+                <div class="testimonial-author-img">
+                  <img src="assets/img/testimonial/04.jpg" alt="" />
+                </div>
+                <div class="testimonial-author-info">
+                  <h4>Akashy Mehra</h4>
+                  <p>Customer</p>
+                </div>
+              </div>
+              <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
+            </div>
+            <div class="testimonial-single">
+              <div class="testimonial-rate">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="testimonial-quote">
+                <p>
+                  The rewinding service was top-notch. They used quality
+                  materials, and the performance of our motor has improved
+                  significantly after the service.
+                </p>
+              </div>
+              <div class="testimonial-content">
+                <div class="testimonial-author-img">
+                  <img src="assets/img/testimonial/05.jpg" alt="" />
+                </div>
+                <div class="testimonial-author-info">
+                  <h4>Manish Rane</h4>
+                  <p>Customer</p>
+                </div>
+              </div>
+              <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- testimonial area end -->
+
+      <!-- process area -->
+      <div class="process-area py-120">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mx-auto">
+              <div class="site-heading text-center">
+                <span class="site-title-tagline"><i class="far fa-lightbulb-on"></i> How It Works</span>
+                <h2 class="site-title">Our Working <span>Process</span></h2>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-between">
+            <div class="col-lg-3 col-md-6 text-center mb-30">
+              <div class="process-single">
+                <div class="icon">
+                  <span>01</span>
+                  <i class="icon-office"></i>
+                </div>
+                <h4>Book Service Online</h4>
+                <p>
+                  Easily book your electrical or motor service request through
+                  our website or by phone.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center mb-30">
+              <div class="process-single">
+                <div class="icon">
+                  <span>02</span>
+                  <i class="icon-easy-installation"></i>
+                </div>
+                <h4>Confirmation Service</h4>
+                <p>
+                  Our team confirms your request and schedules the service at
+                  your convenience.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center mb-30">
+              <div class="process-single">
+                <div class="icon">
+                  <span>03</span>
+                  <i class="icon-diagnostic"></i>
+                </div>
+                <h4>Estimate Details</h4>
+                <p>
+                  We provide a clear cost and time estimate before starting any
+                  kind of work.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center mb-30">
+              <div class="process-single">
+                <div class="icon">
+                  <span>04</span>
+                  <i class="icon-satisfaction"></i>
+                </div>
+                <h4>Complete Your Works</h4>
+                <p>
+                  Our skilled technicians complete the job with quality
+                  assurance and customer satisfaction.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- process area end -->
+
+      <!-- quote area -->
+      <div class="quote-area pb-120">
+        <div class="container">
+          <div class="quote-wrapper">
+            <div class="row align-items-center">
+              <div class="col-lg-5">
+                <div class="quote-img">
+                  <img src="assets/img/quote/01.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="quote-content">
+                  <div class="quote-header">
+                    <h6><i class="far fa-lightbulb-on"></i> Get Free Quote</h6>
+                    <h2>Do You Have Any Questions?</h2>
+                  </div>
+                  <form id="quoteForm">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <input type="text" name="name" class="form-control" placeholder="Your Name" required />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <input type="email" name="email" class="form-control" placeholder="Email Address" required />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <input type="text" name="subject" class="form-control" placeholder="Subject" required />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <select class="form-select" name="service" required>
+                            <option value="">Choose Service</option>
+                            <option value="Motor Repair & Rewinding">
+                              Motor Repair & Rewinding
+                            </option>
+                            <option value="Brake Coil Repair">
+                              Brake Coil Repair
+                            </option>
+                            <option value="Transformer Repair">
+                              Transformer Repair
+                            </option>
+                            <option value="AC/DC Motor Repair">
+                              AC/DC Motor Repair
+                            </option>
+                            <option value="Servo Motor Repair">
+                              Servo Motor Repair
+                            </option>
+                            <option value="Compressor Motor Repair">
+                              Compressor Motor Repair
+                            </option>
+                            <option value="Atlas Compressor Motor Repair">
+                              Atlas Compressor Motor Repair
+                            </option>
+                            <option value="Electromagnetic Brake Coil Repair">
+                              Electromagnetic Brake Coil Repair
+                            </option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <textarea name="message" class="form-control" placeholder="Type Message" rows="4"
+                        required></textarea>
+                    </div>
+                    <button type="submit" class="theme-btn">
+                      Submit Now <i class="fas fa-arrow-right-long"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- quote area end -->
+
+      <script>
+      document
+        .getElementById("quoteForm")
+        .addEventListener("submit", function(e) {
+          e.preventDefault();
+
+          // Get form values
+          let name = this.name.value.trim();
+          let email = this.email.value.trim();
+          let subject = this.subject.value.trim();
+          let service = this.service.value.trim();
+          let message = this.message.value.trim();
+
+          // Make plain text first (without encoding)
+          let text = `Hello, I would like to request a quote:
+
+*Name:* ${name}
+*Email:* ${email}
+*Subject:* ${subject}
+*Service:* ${service}
+*Message:* ${message}`;
+
+          // Encode for WhatsApp
+          let whatsappMessage = encodeURIComponent(text);
+
+          // WhatsApp number with country code (India = 91)
+          let phoneNumber = "917709434833";
+
+          // Final URL
+          let url = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
+
+          // Open in new tab
+          window.open(url, "_blank");
+        });
+      </script>
+
+      <!-- certifications area -->
+      <div class="certifications-area pb-120">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mx-auto">
+              <div class="site-heading text-center">
+                <span class="site-title-tagline">
+                  <i class="far fa-lightbulb-on"></i> Our Credentials
+                </span>
+                <h2 class="site-title">
+                  Certifications & <span>Approvals</span>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- GST Registered -->
+            <div class="col-md-6 col-lg-4">
+              <div class="certification-card wow fadeInUp" data-wow-delay=".25s">
+                <div class="certification-icon">
+                  <i class="fas fa-file-invoice-dollar"></i>
+                </div>
+                <div class="certification-content">
+                  <h3 class="certification-title">GST Registered</h3>
+                  <p class="certification-desc">
+                    Our business is fully compliant with Government of India tax
+                    regulations under GST, ensuring transparency in all
+                    financial transactions and client dealings.
+                  </p>
+                  <div class="certification-badge">
+                    <span>Govt. Approved</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- MSME Registration -->
+            <div class="col-md-6 col-lg-4">
+              <div class="certification-card wow fadeInUp" data-wow-delay=".50s">
+                <div class="certification-icon">
+                  <i class="fas fa-landmark"></i>
+                </div>
+                <div class="certification-content">
+                  <h3 class="certification-title">MSME (Udyam) Registration</h3>
+                  <p class="certification-desc">
+                    Officially registered as a Micro, Small & Medium Enterprise,
+                    recognized by the Ministry of MSME, Government of India.
+                  </p>
+                  <div class="certification-badge">
+                    <span>Govt. Recognized</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- MSEB Approved Contractor -->
+            <div class="col-md-6 col-lg-4">
+              <div class="certification-card wow fadeInUp" data-wow-delay=".75s">
+                <div class="certification-icon">
+                  <i class="fas fa-bolt"></i>
+                </div>
+                <div class="certification-content">
+                  <h3 class="certification-title">MSEB Approved Contractor</h3>
+                  <p class="certification-desc">
+                    Authorized by the Maharashtra State Electricity Board (MSEB)
+                    to carry out electrical works, repair, and maintenance.
+                  </p>
+                  <div class="certification-badge">
+                    <span>Approved Contractor</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ISO 9001 Certification -->
+            <div class="col-md-6 col-lg-4">
+              <div class="certification-card wow fadeInUp" data-wow-delay=".25s">
+                <div class="certification-icon">
+                  <i class="fas fa-award"></i>
+                </div>
+                <div class="certification-content">
+                  <h3 class="certification-title">
+                    ISO 9001 Certification(Planning)
+                  </h3>
+                  <p class="certification-desc">
+                    Our ISO 9001:2015 certification demonstrates adherence to
+                    globally recognized Quality Management Systems (QMS).
+                  </p>
+                  <div class="certification-badge">
+                    <span>Quality Certified</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- All Valid Licenses -->
+            <div class="col-md-6 col-lg-4">
+              <div class="certification-card wow fadeInUp" data-wow-delay=".50s">
+                <div class="certification-icon">
+                  <i class="fas fa-tools"></i>
+                </div>
+                <div class="certification-content">
+                  <h3 class="certification-title">All Valid Licenses</h3>
+                  <p class="certification-desc">
+                    Licensed to perform specialized electrical repair and motor
+                    rewinding services with full compliance to statutory and
+                    safety regulations.
+                  </p>
+                  <div class="certification-badge">
+                    <span>Fully Licensed</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 15+ Years of Experience -->
+            <div class="col-md-6 col-lg-4">
+              <div class="certification-card wow fadeInUp" data-wow-delay=".75s">
+                <div class="certification-icon">
+                  <i class="fas fa-history"></i>
+                </div>
+                <div class="certification-content">
+                  <h3 class="certification-title">15+ Years of Experience</h3>
+                  <p class="certification-desc">
+                    With over a decade and a half of expertise in the field, we
+                    have successfully handled projects across industrial,
+                    commercial, and residential sectors.
+                  </p>
+                  <div class="certification-badge">
+                    <span>Established</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- certifications area end -->
+
+      <style>
+      .certification-card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 30px;
+        margin-bottom: 30px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease;
+        border-left: 4px solid #d21a26;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .certification-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+      }
+
+      .certification-card:hover .certification-icon {
+        background: #d21a26;
+        color: white;
+      }
+
+      .certification-icon {
+        width: 70px;
+        height: 70px;
+        background: #f0f7ff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        font-size: 28px;
+        color: #d21a26;
+        transition: all 0.3s ease;
+      }
+
+      .certification-title {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        color: #222;
+      }
+
+      .certification-desc {
+        color: #666;
+        margin-bottom: 20px;
+        line-height: 1.6;
+      }
+
+      .certification-badge {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+
+      .certification-badge span {
+        background: #f0f7ff;
+        color: #d21a26;
+        padding: 5px 12px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: 600;
+      }
+
+      @media (max-width: 768px) {
+        .certification-card {
+          padding: 20px;
+        }
+
+        .certification-icon {
+          width: 60px;
+          height: 60px;
+          font-size: 24px;
+        }
+      }
+      </style>
+
+      <!-- partner area -->
+      <div class="partner-area bg pt-50 pb-50">
+        <div class="container">
+          <div class="partner-wrapper partner-slider owl-carousel owl-theme">
+            <img src="assets/img/partner/01.png" alt="thumb" />
+            <img src="assets/img/partner/01.png" alt="thumb" />
+            <img src="assets/img/partner/01.png" alt="thumb" />
+            <img src="assets/img/partner/01.png" alt="thumb" />
+            <img src="assets/img/partner/01.png" alt="thumb" />
+            <img src="assets/img/partner/01.png" alt="thumb" />
+            <img src="assets/img/partner/01.png" alt="thumb" />
+          </div>
+        </div>
+      </div>
+      <!-- partner area end -->
+  </main>
+
+  <?php include "includes/footer.php" ?>
